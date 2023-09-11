@@ -4,8 +4,12 @@ crispy-octo-pancake
 Repository content / goal
 -------------------------
 
-KiCad pluggin which allow user to choose which field to copy in BoM with the
+_KiCad_ plugin which allow user to choose which field to copy in BoM with the
 help of a GUI.
+
+Since this is a _KiCad_ plugin, it follows the rules given in _KiCad_
+_Developpers Documentation_ about
+[KiCad Addons](https://dev-docs.kicad.org/en/addons/).
 
 ### Important Note
 
