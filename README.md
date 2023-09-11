@@ -11,10 +11,34 @@ Since this is a _KiCad_ plugin, it follows the rules given in _KiCad_
 _Developpers Documentation_ about
 [KiCad Addons](https://dev-docs.kicad.org/en/addons/).
 
+
 ### Important Note
 
 This work is very early stage and may stay in a work in progress state for a
 while.
+
+
+### Repository file tree
+
+I have more or less replicated the structure of a plugin archive structure for
+this directory file tree :
+
+```
+Repository root/
+  +-> plugins/
+  |   +-> __init__.py
+  |   +-> ...
+  +-> resources/
+  |   +-> icon.png
+  |   +-> ...
+  +-> archive/
+  |   +-> crispy-octo-pancake_v0.1.zip
+  |   +-> ...
+  +-> metadata.json
+  +-> LICENSE*
+  +-> README.md
+```
+
 
 LICENSE
 -------
