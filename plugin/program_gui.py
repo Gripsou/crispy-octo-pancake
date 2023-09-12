@@ -16,8 +16,6 @@ Important
 import argparse
 import sys
 
-import numpy as np
-
 from PyQt5.QtCore import Qt, pyqtSlot
 from PyQt5.QtWidgets import QApplication as Application, QWidget as Widget, QPushButton as Button
 from PyQt5.QtWidgets import QLabel as Label, QGridLayout, QDesktopWidget
@@ -100,6 +98,7 @@ class ProgramGUI(Widget):
     def test_std_out(self):
         # Used for rapid GUI testing
         return None
+
 
 if __name__ == '__main__':
     app = Application(sys.argv)
