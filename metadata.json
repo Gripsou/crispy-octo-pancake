@@ -1,25 +1,26 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "https://go.kicad.org/pcm/schemas/v1",
-    "title": "Crispy Octo Pancake",
+    "name": "Crispy Octo Pancake",
     "description": "BoM formatting plugin",
     "description_full": "KiCad plugin which allow user to choose which field to copy in BoM with the help of a GUI",
     "identifier": "com.github.gripsou.crispy-octo-pancake",
     "type": "plugin",
     "author": {
             "name": "Vincent RICCHI",
-            "contact": "vincent@project-tomorrow.com"
+            "contact": {
+                "email": "undisclosed"
+            }
         },
     "license": "LGPL-3.0",
-    "resources": "https://github.com/Gripsou/crispy-octo-pancake",
+    "resources": {
+        "homepage": "https://github.com/Gripsou/crispy-octo-pancake"
+    },
     "versions": [
         {
             "version": "0.1",
             "status": "development",
             "kicad_version": "6.0"
-//            "download_sha256": "YOUR_SHA256_HERE",
-//            "download_size": 1234,
-//            "download_url": "https://github.com/YOUR/DOWNLOAD/URL/kicad-beautiful-theme.zip",
         }
     ]
 }
