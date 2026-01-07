@@ -1,11 +1,22 @@
 crispy-octo-pancake
 ===================
 
-Repository content / goal
--------------------------
+Repository content
+------------------
 
-_KiCad_ plugin which allow user to choose which field to copy in BoM with the
-help of a GUI.
+### Brief
+
+_KiCad_ plugin development sandbox repository.
+
+
+### Goal
+
+It aims to be the place where I learn and experiment with how to develop and
+build any pluggin feature I would like to add/use in my personnal _KiCad_
+projects.
+
+
+### External docs & sources
 
 Since this is a _KiCad_ plugin, it follows the rules given in _KiCad_
 _Developpers Documentation_ about
@@ -14,8 +25,9 @@ _Developpers Documentation_ about
 
 ### Important Note
 
-This work is very early stage and may stay in a work in progress state for a
-while.
+This work is very early stage and at the moment I have no intention nor
+motivation anymore to make anything crazy here, so don't expect this to be
+usable at any point soon.
 
 
 ### Repository file tree
